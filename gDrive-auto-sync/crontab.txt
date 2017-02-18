@@ -22,9 +22,8 @@
 # m h  dom mon dow   command
 
 
-PATH=/home/anmol/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+#PATH=/home/g/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 
 
 # Run at 7:30 pm every Saturday
-30 19 * * Sat cd /home/anmol/Data/anmol/coding/gDrive-auto-sync/gDrive-auto-sync && ./run.sh 2> logs/cron.log
-
+30 3 * * Sun cd /home/g/gDrive-auto-sync/gDrive-auto-sync && ./run.sh 2> logs/cron.log

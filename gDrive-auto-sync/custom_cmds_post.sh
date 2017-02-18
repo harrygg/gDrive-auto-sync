@@ -3,9 +3,6 @@
 
 printf "Running post-script ...\n\n"
 
-
-# Restore Google Chrome's config
-mv /home/anmol/.config.google-chrome /home/anmol/.config/google-chrome
-
+printf "None\n\n"
 
 printf "Post-script execution complete!\n\n"

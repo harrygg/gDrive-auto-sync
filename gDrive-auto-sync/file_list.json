@@ -1,52 +1,72 @@
 [
     {
-        "fileId": "0Bw239KLrN7zoTzNJd1p2cGczNFE",
-        "parentId": "0Bw239KLrN7zoZmxmd09RYTFJTkk",
-        "path": "temp/manually_installed_apps.txt"
-    },
+        "fileId": "0Bz3D9Y9YWAJoLUJXTFlOeVlsR0U", 
+        "parentId": "0Bz3D9Y9YWAJoUnhHaTFqU0RKczA", 
+        "path": "/var/www/addons.kodibg.org"
+    }, 
     {
-        "fileId": "0Bw239KLrN7zoc0hrR0NKZF9DckU",
-        "parentId": "0Bw239KLrN7zoZmxmd09RYTFJTkk",
-        "path": "temp/snapshot"
-    },
+        "fileId": "0Bz3D9Y9YWAJob1MxYUhSX2pCaDQ", 
+        "parentId": "0Bz3D9Y9YWAJoUnhHaTFqU0RKczA", 
+        "path": "/var/www/roastedleek.com"
+    }, 
     {
-        "fileId": "0Bw239KLrN7zoU0gtX2d2VGphbFU",
-        "parentId": "0Bw239KLrN7zoZmxmd09RYTFJTkk",
-        "path": "temp/installed_ppa_list.txt"
-    },
+        "fileId": "0Bz3D9Y9YWAJoTEUtSW9fanNwN00", 
+        "parentId": "0Bz3D9Y9YWAJoUnhHaTFqU0RKczA", 
+        "path": "/var/www/bsp.harmanli.org"
+    }, 
     {
-        "fileId": "0Bw239KLrN7zodWxlSzRobl9hcjA",
-        "parentId": "0Bw239KLrN7zoZmxmd09RYTFJTkk",
-        "path": "/home/anmol/bin"
-    },
+        "fileId": "0Bz3D9Y9YWAJoMDZDNXltYnhDVXM", 
+        "parentId": "0Bz3D9Y9YWAJoUnhHaTFqU0RKczA", 
+        "path": "/var/www/megaepg.kodibg.org"
+    }, 
     {
-        "fileId": "0Bw239KLrN7zoOG5WRXZEajBkT1U",
-        "parentId": "0Bw239KLrN7zoZmxmd09RYTFJTkk",
-        "path": "/home/anmol/Documents"
-    },
+        "fileId": "0Bz3D9Y9YWAJoVTJwY3VWVkJLRk0", 
+        "parentId": "0Bz3D9Y9YWAJoUnhHaTFqU0RKczA", 
+        "path": "/var/www/links"
+    }, 
     {
-        "fileId": "0Bw239KLrN7zoeXNHUE1TVGdYM3M",
-        "parentId": "0Bw239KLrN7zoZmxmd09RYTFJTkk",
-        "path": "/home/anmol/.config"
-    },
+        "fileId": "0Bz3D9Y9YWAJoc0ZxZkI5dHNGejg", 
+        "parentId": "0Bz3D9Y9YWAJoUnhHaTFqU0RKczA", 
+        "path": "/var/www/playlists"
+    }, 
     {
-        "fileId": "0Bw239KLrN7zoaUlFTko3azI5RlE",
-        "parentId": "0Bw239KLrN7zoZmxmd09RYTFJTkk",
-        "path": "temp/rc"
-    },
+        "fileId": "0Bz3D9Y9YWAJoQndBSnZqT0V5d1k", 
+        "parentId": "0Bz3D9Y9YWAJoUnhHaTFqU0RKczA", 
+        "path": "/var/www/harmanli.org"
+    }, 
     {
-        "fileId": "0Bw239KLrN7zoS1BGVGxzWkRrbDA",
-        "parentId": "0Bw239KLrN7zoZmxmd09RYTFJTkk",
-        "path": "/home/anmol/.bash_aliases"
-    },
+        "fileId": "0Bz3D9Y9YWAJoeWo2WUlwNi1iRWc", 
+        "parentId": "0Bz3D9Y9YWAJoUnhHaTFqU0RKczA", 
+        "path": "/var/www/blog.kodibg.org"
+    }, 
     {
-        "fileId": "0Bw239KLrN7zoZkVkcmlrckM4N0k",
-        "parentId": "0Bw239KLrN7zoZmxmd09RYTFJTkk",
-        "path": "/home/anmol/.gitconfig"
-    },
+        "fileId": "0Bz3D9Y9YWAJoY1hCcnQ4RFlzbE0", 
+        "parentId": "0Bz3D9Y9YWAJoUnhHaTFqU0RKczA", 
+        "path": "/home/g/bin"
+    }, 
     {
-        "fileId": "0Bw239KLrN7zoQTE1X1BMSDZfTG8",
-        "parentId": "0Bw239KLrN7zoZmxmd09RYTFJTkk",
-        "path": "/home/anmol/.audacity-data"
+        "fileId": "0Bz3D9Y9YWAJoLU04ckR3VXdySFE", 
+        "parentId": "0Bz3D9Y9YWAJoUnhHaTFqU0RKczA", 
+        "path": "/home/g/.bashrc"
+    }, 
+    {
+        "fileId": "0Bz3D9Y9YWAJoazdOd0p4cjFzTWc", 
+        "parentId": "0Bz3D9Y9YWAJoUnhHaTFqU0RKczA", 
+        "path": "/home/g/smb.conf"
+    }, 
+    {
+        "fileId": "0Bz3D9Y9YWAJoQ05CMWNreFFqSFU", 
+        "parentId": "0Bz3D9Y9YWAJoUnhHaTFqU0RKczA", 
+        "path": "/home/g/.profile"
+    }, 
+    {
+        "fileId": "0Bz3D9Y9YWAJobFN5bVUweElWYW8", 
+        "parentId": "0Bz3D9Y9YWAJoUnhHaTFqU0RKczA", 
+        "path": "/etc/nginx"
+    }, 
+    {
+        "fileId": "0Bz3D9Y9YWAJoaVdCVFZLSHFnUjg", 
+        "parentId": "0Bz3D9Y9YWAJoUnhHaTFqU0RKczA", 
+        "path": "/home/g/.dbbackups"
     }
 ]

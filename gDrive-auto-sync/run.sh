@@ -2,13 +2,13 @@
 
 
 # Source the environment variables required for notify-send to work.
-. /home/anmol/.env_vars
+#. /home/anmol/.env_vars
 
 
-for i in `seq 1 3`;
-do
- notify-send "gDrive auto-backup started!!"
-done
+#for i in `seq 1 3`;
+#do
+# notify-send "gDrive auto-backup started!!"
+#done
 
 
 # Get the temporary directory's location
@@ -29,10 +29,9 @@ printf "Executing Python script ...\n"
 
 mkdir -p ./logs
 chmod +x ./upload.py
-./upload.py > ./logs/$(date +%Y-%m-%d_%H-%M-%S.log) 2>&1
+python ./upload.py > ./logs/$(date +%Y-%m-%d_%H-%M-%S.log) 2>&1
 
 printf "Python script execution complete!\n\n"
-
 
 source ./custom_cmds_post.sh
 
@@ -42,7 +41,7 @@ rm -rf "${temp_dir_path}"
 printf "Done!\n\n"
 
 
-for i in `seq 1 3`;
-do
- notify-send "gDrive auto-backup finished!!"
-done
+#for i in `seq 1 3`;
+#do
+# notify-send "gDrive auto-backup finished!!"
+#done

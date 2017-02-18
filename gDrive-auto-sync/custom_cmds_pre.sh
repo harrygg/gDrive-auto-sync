@@ -4,21 +4,18 @@
 printf "Running pre-script ...\n\n"
 
 
-printf "Running directory_snapshot ...\n"
+#printf "Running directory_snapshot ...\n"
 # Execute directory snapshot
-directory-snapshot "/home/anmol/Data/anmol" "${temp_dir_path}/snapshot" "${temp_dir_path}/snapshot_logs"
-printf "Done!\n\n"
+#directory-snapshot "/home/anmol/Data/anmol" "${temp_dir_path}/snapshot" "${temp_dir_path}/snapshot_logs"
+#printf "Done!\n\n"
 
 # List the manually installed applications
-comm -23 <(apt-mark showmanual | sort -u) <(gzip -dc /var/log/installer/initial-status.gz | sed -n 's/^Package: //p' | sort -u) > "${temp_dir_path}/manually_installed_apps.txt"
+#comm -23 <(apt-mark showmanual | sort -u) <(gzip -dc /var/log/installer/initial-status.gz | sed -n 's/^Package: //p' | sort -u) > "${temp_dir_path}/manually_installed_apps.txt"
 
 # List the PPA's installed
 grep -RoPish "ppa.launchpad.net/[^/]+/[^/ ]+" /etc/apt | sort -u | sed -r 's/\.[^/]+\//:/' > "${temp_dir_path}/installed_ppa_list.txt"
 
-home="/home/anmol"
-
-# Move Google Chrome's config out due to its large size
-mv "${home}/.config/google-chrome" "${home}/.config.google-chrome"
+home="/home/g"
 
 # Archive all the .rc files in the home directory
 # Make a temporary folder to store all the rc files in one place
